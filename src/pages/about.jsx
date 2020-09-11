@@ -4,7 +4,7 @@ import styles from './index.less';
 
 export default () => {
   return (
-    <div>
+    <div className="page contain">
       <Prompt message="你确定要离开么？" />
       {
         // <Prompt
@@ -16,4 +16,4 @@ export default () => {
       <h1 className={styles.title}>Page about</h1>
     </div>
   );
-}
+};
